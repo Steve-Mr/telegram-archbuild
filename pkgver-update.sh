@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PKGBUILD=pkgbuilds/telegram-desktop-sakari/PKGBUILD
+PKGBUILD=pkgbuilds/ayugram-desktop-maary/PKGBUILD
 
 source $PKGBUILD
 

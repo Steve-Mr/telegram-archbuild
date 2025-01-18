@@ -1,8 +1,8 @@
-# Telegram Builds with Patches for Arch Linux
+# AyuGram Desktop for Arch Linux
 
-Patch lists can be found here: [patches](pkgbuilds/telegram-desktop-sakari)
+A manually triggered compilation tool for AyuGram, designed to address startup issues in ayugram-desktop caused by protobuf updates.
 
-Pkgbuilds from [archlinuxcn](https://github.com/archlinuxcn/repo/tree/master/archlinuxcn/telegram-desktop-lily)
+Pkgbuilds from [AyugramDesktop](https://github.com/AyuGram/AyuGramDesktop)
 
 Build with [arch repo builder](https://github.com/sakarie9/arch-repo-builder)
 

@@ -27,7 +27,7 @@ jobs:
 
       - name: Extract Telegram Version
         id: tg-version
-        run: echo "pkgver=$(grep -Po 'pkgver=\K[^ ]+' pkgbuilds/telegram-desktop-sakari/PKGBUILD)" >> "$GITHUB_OUTPUT"
+        run: echo "pkgver=$(grep -Po 'pkgver=\K[^ ]+' pkgbuilds/ayugram-desktop-maary/PKGBUILD)" >> "$GITHUB_OUTPUT"
 
       - name: Download releases
         uses: robinraju/release-downloader@v1.9
@@ -45,7 +45,7 @@ jobs:
         with:
           path: |
             ccache
-            pkgbuilds/telegram-desktop-sakari/src/build
+            pkgbuilds/ayugram-desktop-maary/src/build
           key: ccache-v${{ steps.tg-version.outputs.pkgver }}
 
       - name: Build packages
