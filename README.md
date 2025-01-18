@@ -15,7 +15,7 @@ or
 Add following entry to `/etc/pacman.conf`
 
 ```conf
-[sakari-tg]
+[maary-tg]
 SigLevel = Optional
-Server = https://github.com/sakarie9/telegram-archbuild/releases/download/repo
+Server = https://github.com/Steve-Mr/telegram-archbuild/releases/download/repo
 ```

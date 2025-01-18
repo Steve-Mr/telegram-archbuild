@@ -27,8 +27,8 @@ jobs:
         if: steps.tg-update.outputs.if_updated == 1
         run: |
           git add -v pkgbuilds
-          git config --global user.name Sakari
-          git config --global user.email 20642596+sakarie9@users.noreply.github.com
+          git config --global user.name Maary
+          git config --global user.email 24504742+Steve-Mr@users.noreply.github.com
           git commit -m "Update to ${{ steps.tg-update.outputs.newver }}"
           git push
 

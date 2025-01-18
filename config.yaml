@@ -1,6 +1,6 @@
 global-settings:
-  repository: release/sakari-tg.db.tar.gz
-  packager: "Sakari <20642596+sakarie9@users.noreply.github.com>"
+  repository: release/maary-tg.db.tar.gz
+  packager: "Maary <24504742+Steve-Mr@users.noreply.github.com>"
 
 pkgbuilds:
   container: pkgbuilds
