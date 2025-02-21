@@ -17,7 +17,7 @@ then
     fi
 
     source $PKGBUILD
-    tg_tar_link=${source[0]}
+    tg_tar_link=${source[0]#*::}   # 去除 '::' 及之前的部分，提取实际的 URL
     echo "Telegram Desktop tar link: ${tg_tar_link}!"
     wget "${tg_tar_link}" -O tdesktop.tar.gz
     oldsha=${sha512sums[0]}
