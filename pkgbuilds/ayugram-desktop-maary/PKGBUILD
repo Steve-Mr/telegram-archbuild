@@ -184,7 +184,7 @@ prepare() {
     #CMAKE_BUILD_TYPE must match libtg_owt's
 
     sed -i 's/QGenericUnixServices/QDesktopUnixServices/;s/qgenericunixservices_p/qdesktopunixservices_p/' \
-    ${srcdir}/tdesktop-*-full/Telegram/lib_base/base/platform/linux/base_linux_xdp_utilities.cpp
+    ${srcdir}/AyuGramDesktop-*/Telegram/lib_base/base/platform/linux/base_linux_xdp_utilities.cpp
 }
 build() {
     CXXFLAGS+=' -ffat-lto-objects'
