@@ -182,6 +182,9 @@ prepare() {
         Telegram/ThirdParty/cld3/CMakeLists.txt
     #https://github.com/telegramdesktop/tdesktop/issues/26489#issuecomment-1627555107
     #CMAKE_BUILD_TYPE must match libtg_owt's
+
+    sed -i 's/QGenericUnixServices/QDesktopUnixServices/;s/qgenericunixservices_p/qdesktopunixservices_p/' \
+    ${srcdir}/tdesktop-*-full/Telegram/lib_base/base/platform/linux/base_linux_xdp_utilities.cpp
 }
 build() {
     CXXFLAGS+=' -ffat-lto-objects'
