@@ -52,7 +52,6 @@ optdepends=('geoclue: geoinformation support'
             'webkit2gtk: embedded browser features provided by webkit2gtk'
             'webkitgtk-6.0: embedded browser features provided by webkitgtk-6.0 (Wayland only)'
             'xdg-desktop-portal: desktop integration')
-install=ayugram-desktop.install
 _tdlib_commit=51743dfd01dff6179e2d8f7095729caa4e2222e9
 source=("AyuGram-v$pkgver.tar.gz::https://github.com/AyuGram/AyuGramDesktop/archive/refs/tags/v$pkgver.tar.gz"
         "td-$_tdlib_commit.tar.gz::https://github.com/tdlib/td/archive/$_tdlib_commit.tar.gz")
