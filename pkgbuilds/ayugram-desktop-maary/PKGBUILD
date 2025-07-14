@@ -124,7 +124,7 @@ do
 done
 unset _source_str _uri
 
-sha256sums=('5b859c983d313e9190a5acd516bd4b36e7128d06fa3c3f8bea955a540baabfb8'
+sha256sums=('69bda12d857b97e6caf45e1b15346d47423f779903fb4cf99428a7a883176511'
             'f2c6b92533ba41a024b9fdb86d346c8bfc876d5961738ad463effbd844d61405'
             'd0d4ea2fddcbc7d10ace2c37309feb09da87e8ce7ced6ce73592da1359f4765f'
             '269cc8fe51bd6344d2f3924c999912053d2acf8cfeee53e6f3e1ccc9bb3891f6'
